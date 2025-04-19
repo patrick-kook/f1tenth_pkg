@@ -38,9 +38,6 @@ target_link_libraries(frenet_odom_republisher_node ${catkin_LIBRARIES})
 catkin_install_python(PROGRAMS
   scripts/lane_visualize.py
   scripts/static_obs_spline_planner.py
-  scripts/static_obstacle_pub.py
   scripts/frenet_utils.py
-  scripts/obstacle_detect_pnu.py
-  scripts/tester.py
   DESTINATION ${CATKIN_PACKAGE_PYTHON_DESTINATION}
 )
